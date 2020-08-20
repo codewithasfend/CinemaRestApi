@@ -15,8 +15,8 @@ namespace CinemaApi.Models
         public string Description { get; set; }
         public string Language { get; set; }
         public string Duration { get; set; }
-        public DateTime PlayingDate { get; set; }
-        public DateTime PlayingTime { get; set; }
+        public string PlayingDate { get; set; }
+        public string PlayingTime { get; set; }
         public double TicketPrice { get; set; }
         public double Rating { get; set; }
         public string Genre { get; set; }
