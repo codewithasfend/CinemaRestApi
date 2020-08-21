@@ -41,7 +41,7 @@ namespace CinemaApi.Controllers
                                {
                                    Id = reservation.Id,
                                    ReservationTime = reservation.ReservationTime,
-                                   CustomerName = customer.Id,
+                                   CustomerName = customer.Name,
                                    MovieName = movie.Name
                                };
             return Ok(reservations);
@@ -60,7 +60,7 @@ namespace CinemaApi.Controllers
                                      {
                                          Id = reservation.Id,
                                          ReservationTime = reservation.ReservationTime,
-                                         CustomerName = customer.Id,
+                                         CustomerName = customer.Name,
                                          MovieName = movie.Name,
                                          Email = customer.Email,
                                          Qty = reservation.Qty,
